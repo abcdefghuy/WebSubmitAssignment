@@ -450,7 +450,7 @@ circle {
 }
 @keyframes js {
   100% {
-    stroke-dashoffset: 45;
+    stroke-dashoffset: 100;
   }
 }
 @keyframes rj {
