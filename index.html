@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- ==================================
+                    NAVBAR
+    ==================================== -->
+    <nav>
+      <div class="container nav-container">
+        <a href="index.html" class="logo">S.HY<span>Dev</span></a>
+        <ul class="navlist">
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#assignment">assignment</a></li>
+          <!-- <li><a href="#portfolio">portfolio</a></li>
+          <li><a href="#testimonial">testimonial</a></li> -->
+          <li><a href="#contact">contact</a></li>
+        </ul>
+        <div class="nav-icons">
+          <div id="theme-btn" class="ri-moon-line"></div>
+          <div id="menu-btn" class="ri-menu-line"></div>
+        </div>
+      </div>
+    </nav>
+    <!-- ==================================
+                  HOME SECTION
+    ==================================== -->
+    <section class="home" id="home">
+      <div class="container home-container">
+        <div class="left">
+          <h3>Hello, It's Me</h3>
+          <h1><span>Nguyễn Sang Huy</span></h1>
+          <!-- you can edit `multiple-text` into ( /assets/js/script.js ), then search and edit `strings` in TYPED Js  -->
+          <h3>And I'm a <span class="multiple-text"></span></h3>
+          <p>
+            Tôi là Nguyễn Sang Huy đang học năm 3 tại trường đại học Sư phạm kỹ
+            thuật Hồ Chí Minh, ngành Công nghệ thông tin với mã số sinh viên:
+            22110333
+          </p>
+          <div class="social-icons-container">
+            <div class="social-icons">
+              <a href="https://www.facebook.com/En8Huy"
+                ><i class="ri-facebook-line"></i
+              ></a>
+              <a href=""><i class="ri-twitter-line"></i></a>
+              <a href="https://github.com/abcdefghuy/"
+                ><i class="ri-github-line"></i
+              ></a>
+              <a href=""><i class="ri-instagram-line"></i></a>
+            </div>
+            <button class="btn overlay" id="btn">
+              <span>Watch me</span>
+            </button>
+          </div>
+        </div>
+        <div class="right">
+          <!-- add your home or profile photo in src from assets/images/  -->
+          <img src="assets/image/portfolio.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- ================================== ABOUT SECTION
+    ==================================== -->
+    <section class="about" id="about">
+      <div class="container about-container">
+        <div class="left">
+          <!-- add your photo in src for About page from assets/images/ -->
+          <img src="assets/image/about.avif" alt="" />
+        </div>
+        <div class="right">
+          <div class="title">
+            <h2>About <span>Me</span></h2>
+          </div>
+          <h3>I'm a FullStack Web Developer</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo beatae
+            similique tenetur voluptate! Tempore quos alias porro voluptatem
+            autem est animi aspernatur eius, velit in, minus libero illum quod
+            dolore.
+          </p>
+          <!-- <button class="btn overlay">
+            <span>Download CV</span>
+          </button> -->
+          <div class="container">
+            <div class="progress-bar">
+              <div class="outer-circle">
+                <div class="inner-circle">
+                  <div class="html-number number">
+                    <h4>JavaScript</h4>
+                  </div>
+                </div>
+              </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                version="1.1"
+                width="160px"
+                height="160px"
+              >
+                <defs>
+                  <linearGradient id="GradientColor">
+                    <stop offset="0%" stop-color="#9b2fff" />
+                    <stop offset="100%" stop-color="#ff2f48" />
+                  </linearGradient>
+                </defs>
+                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+              </svg>
+            </div>
+            <div class="progress-bar">
+              <div class="outer-circle">
+                <div class="inner-circle">
+                  <div class="html-number number">
+                    <h4>React js</h4>
+                  </div>
+                </div>
+              </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                version="1.1"
+                width="160px"
+                height="160px"
+              >
+                <defs>
+                  <linearGradient id="GradientColor">
+                    <stop offset="0%" stop-color="#9b2fff" />
+                    <stop offset="100%" stop-color="#ff2f48" />
+                  </linearGradient>
+                </defs>
+                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+              </svg>
+            </div>
+            <div class="progress-bar">
+              <div class="outer-circle">
+                <div class="inner-circle">
+                  <div class="html-number number">
+                    <h4>Node js</h4>
+                  </div>
+                </div>
+              </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                version="1.1"
+                width="160px"
+                height="160px"
+              >
+                <defs>
+                  <linearGradient id="GradientColor">
+                    <stop offset="0%" stop-color="#9b2fff" />
+                    <stop offset="100%" stop-color="#ff2f48" />
+                  </linearGradient>
+                </defs>
+                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==================================
+                PORTFOLIO SECTION
+    ==================================== -->
+    <section class="assignment" id="assignment">
+      <div class="title">
+        <h2>Latest <span>Assignment</span></h2>
+      </div>
+      <div class="container portfolio-container">
+        <div class="portfolio-buttons">
+          <button class="btn portfolio-tab active" onclick="tabOpen('all')">
+            All
+          </button>
+          <button class="btn portfolio-tab" onclick="tabOpen('Assignment1')">
+            Assignment 1
+          </button>
+          <button class="btn portfolio-tab" onclick="tabOpen('webdesign')">
+            Assignment 2
+          </button>
+          <button class="btn portfolio-tab" onclick="tabOpen('appdevelop')">
+            Assignment 3
+          </button>
+        </div>
+        <div class="tab-content active-content" id="all">
+          <!-- add your image or mockup project in src for tab-content all  from assets/images/ -->
+          <div class="image">
+            <img src="assets/image/bt1.png" alt="" class="item__thumb" />
+            <!-- Buttons for links -->
+            <div class="image-buttons">
+              <a
+                href="https://github.com/abcdefghuy/webTest"
+                target="_blank"
+                class="btn-link"
+                >GitHub</a
+              >
+              <a
+                href="https://webtest-r9u5.onrender.com/"
+                target="_blank"
+                class="btn-link"
+                >Live Site</a
+              >
+            </div>
+          </div>
+          <div class="image">
+            <img src="assets/image/bt2.png" alt="" />
+            <!-- Buttons for links -->
+            <div class="image-buttons">
+              <a
+                href="https://github.com/abcdefghuy/demoweb"
+                target="_blank"
+                class="btn-link github-link"
+                >GitHub</a
+              >
+              <a
+                href="https://demoweb-yrtb.onrender.com/"
+                target="_blank"
+                class="btn-link live-link"
+                >Live Site</a
+              >
+            </div>
+          </div>
+          <!-- Hidden initially -->
+          <!-- Add Pagination Buttons -->
+          <div class="control">
+            <!-- previous -->
+            <button class="control__btn btn__prev" onclick="prevPage('all')">
+              <svg
+                class="control-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="6"
+                height="12"
+                viewBox="0 0 6 12"
+                fill="none"
+              >
+                <path
+                  d="M5.5 1L0.5 6L5.5 11"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+            <!-- next -->
+            <button class="control__btn btn__next" onclick="nextPage('all')">
+              <svg
+                class="control-icon control-icon--next"
+                xmlns="http://www.w3.org/2000/svg"
+                width="6"
+                height="12"
+                viewBox="0 0 6 12"
+                fill="none"
+              >
+                <path
+                  d="M5.5 1L0.5 6L5.5 11"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="tab-content" id="Assignment1">
+          <!-- add your image or mockup project in src for tab-content webdevelop from assets/images/ -->
+          <div class="image">
+            <img src="assets/image/bt1.png" alt="" />
+            <!-- Buttons for links -->
+            <div class="image-buttons">
+              <a
+                href="https://github.com/abcdefghuy/webTest"
+                target="_blank"
+                class="btn-link"
+                >GitHub</a
+              >
+              <a
+                href="https://webtest-r9u5.onrender.com/"
+                target="_blank"
+                class="btn-link"
+                >Live Site</a
+              >
+            </div>
+          </div>
+          <div class="image">
+            <img src="assets/image/bt2.png" alt="" />
+            <!-- Buttons for links -->
+            <div class="image-buttons">
+              <a
+                href="https://github.com/abcdefghuy/demoweb"
+                target="_blank"
+                class="btn-link github-link"
+                >GitHub</a
+              >
+              <a
+                href="https://demoweb-yrtb.onrender.com/"
+                target="_blank"
+                class="btn-link live-link"
+                >Live Site</a
+              >
+            </div>
+          </div>
+
+          <!-- Add Pagination Buttons -->
+          <div class="control">
+            <!-- previous -->
+            <button
+              class="control__btn btn__prev"
+              onclick="prevPage('Assignment1')"
+            >
+              <svg
+                class="control-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="6"
+                height="12"
+                viewBox="0 0 6 12"
+                fill="none"
+              >
+                <path
+                  d="M5.5 1L0.5 6L5.5 11"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+            <!-- next -->
+            <button
+              class="control__btn btn__next"
+              onclick="nextPage('Assignment1')"
+            >
+              <svg
+                class="control-icon control-icon--next"
+                xmlns="http://www.w3.org/2000/svg"
+                width="6"
+                height="12"
+                viewBox="0 0 6 12"
+                fill="none"
+              >
+                <path
+                  d="M5.5 1L0.5 6L5.5 11"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="tab-content" id="webdesign">
+          <!-- add your image or mockup project in src for tab-content webdesign from assets/images -->
+          <div class="image"><img src="assets/images/img8.png" alt="" /></div>
+          <div class="image"><img src="assets/images/img9.png" alt="" /></div>
+          <div class="image"><img src="assets/images/img10.png" alt="" /></div>
+          <div class="image"><img src="assets/images/img11.png" alt="" /></div>
+          <div class="image"><img src="assets/images/img12.png" alt="" /></div>
+          <div class="image"><img src="assets/images/img13.png" alt="" /></div>
+        </div>
+        <div class="tab-content" id="appdevelop">
+          <!-- add your image or mockup project in src for tab-content appdevelop from assets/images -->
+          <div class="image">
+            <img src="assets/images/portfolio (19).jpg" alt="" />
+          </div>
+          <div class="image">
+            <img src="assets/images/portfolio (4).jpg" alt="" />
+          </div>
+          <div class="image">
+            <img src="assets/images/portfolio (14).jpg" alt="" />
+          </div>
+          <div class="image">
+            <img src="assets/images/portfolio (18).jpg" alt="" />
+          </div>
+          <div class="image">
+            <img src="assets/images/portfolio (15).jpg" alt="" />
+          </div>
+          <div class="image">
+            <img src="assets/images/portfolio (2).jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==================================
+                CONTACT SECTION
+   ==================================== -->
+    <section class="contact" id="contact">
+      <div class="title">
+        <h2>Contact <span>Me</span></h2>
+      </div>
+      <div class="contact-content">
+        <div class="row">
+          <div class="box">
+            <div class="box-icon">
+              <i class="ri-home-line"></i>
+            </div>
+            <div class="box-info">
+              <h4>Address</h4>
+              <span></span>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box-icon">
+              <i class="ri-phone-line"></i>
+            </div>
+            <div class="box-info">
+              <h4>Phone Number</h4>
+              <span></span>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box-icon">
+              <i class="ri-mail-line"></i>
+            </div>
+            <div class="box-info">
+              <h4>Email Address</h4>
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <form action="" class="contact-form">
+            <div class="form-box">
+              <input type="text" placeholder="Enter Your Name" required />
+            </div>
+            <div class="form-box">
+              <input type="email" placeholder="Enter Your Email" required />
+            </div>
+            <div class="form-box">
+              <input type="text" placeholder="Email Subject" required />
+            </div>
+            <div class="form-box">
+              <textarea
+                name="Message"
+                id=""
+                cols="10"
+                rows="10"
+                placeholder="Your Message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn overlay">
+              <span>Send Message</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================
+                 Scroll Reveal
+  ==================================== -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- ==================================
+                 Typed Js
+  ==================================== -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- ==================================
+                 custom Js
+  ==================================== -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
