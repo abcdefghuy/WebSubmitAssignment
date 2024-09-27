@@ -177,10 +177,10 @@
             All
           </button>
           <button class="btn portfolio-tab" onclick="tabOpen('Assignment1')">
-            Assignment 1
+            Email List
           </button>
           <button class="btn portfolio-tab" onclick="tabOpen('webdesign')">
-            Assignment 2
+            Shopping Cart
           </button>
           <button class="btn portfolio-tab" onclick="tabOpen('appdevelop')">
             Assignment 3
@@ -395,12 +395,68 @@
 
         <div class="tab-content" id="webdesign">
           <!-- add your image or mockup project in src for tab-content webdesign from assets/images -->
-          <div class="image"><img src="assets/images/img8.png" alt="" /></div>
-          <div class="image"><img src="assets/images/img9.png" alt="" /></div>
-          <div class="image"><img src="assets/images/img10.png" alt="" /></div>
-          <div class="image"><img src="assets/images/img11.png" alt="" /></div>
-          <div class="image"><img src="assets/images/img12.png" alt="" /></div>
-          <div class="image"><img src="assets/images/img13.png" alt="" /></div>
+          <div class="image">
+            <img src="assets/image/shopping.png" alt="" class="item__thumb" />
+            <!-- Buttons for links -->
+            <div class="image-buttons">
+              <a
+                href="https://github.com/abcdefghuy/ShoppingCart"
+                target="_blank"
+                class="btn-link"
+                >GitHub</a
+              >
+              <a
+                href="https://shoppingcart-jv0j.onrender.com/"
+                target="_blank"
+                class="btn-link"
+                >Live Site</a
+              >
+            </div>
+          </div>
+          <div class="control">
+            <!-- previous -->
+            <button
+              class="control__btn btn__prev"
+              onclick="prevPage('Assignment1')"
+            >
+              <svg
+                class="control-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="6"
+                height="12"
+                viewBox="0 0 6 12"
+                fill="none"
+              >
+                <path
+                  d="M5.5 1L0.5 6L5.5 11"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+            <!-- next -->
+            <button
+              class="control__btn btn__next"
+              onclick="nextPage('Assignment1')"
+            >
+              <svg
+                class="control-icon control-icon--next"
+                xmlns="http://www.w3.org/2000/svg"
+                width="6"
+                height="12"
+                viewBox="0 0 6 12"
+                fill="none"
+              >
+                <path
+                  d="M5.5 1L0.5 6L5.5 11"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
         </div>
         <div class="tab-content" id="appdevelop">
           <!-- add your image or mockup project in src for tab-content appdevelop from assets/images -->
