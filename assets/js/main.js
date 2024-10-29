@@ -32,6 +32,8 @@ let currentPage = {
   Assignment1: 1,
   webdesign: 1,
   appdevelop: 1,
+  email: 1,
+  jpa: 1,
 };
 
 const itemsPerPage = 6;
@@ -75,6 +77,8 @@ document.addEventListener("DOMContentLoaded", () => {
   showPage("Assignment1", currentPage["Assignment1"]);
   showPage("webdesign", currentPage["webdesign"]);
   showPage("appdevelop", currentPage["appdevelop"]);
+  showPage("jpa", currentPage["jpa"]);
+  showPage("email", currentPage["email"]);
 });
 
 // ============== DARK THEME================
